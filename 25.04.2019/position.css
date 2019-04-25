@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 5000px;
+  padding-top: 50px;
+}
+
+.wrapper {
+  width: 500px;
+  height: 400px;
+  background-color: teal;
+}
+.bottom {
+  width: 300px;
+  height: 100px;
+  background-color: #ccc;
+}
+
+header {
+  height: 50px;
+  background-color: #555;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.goTop {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+#ali {
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+}
