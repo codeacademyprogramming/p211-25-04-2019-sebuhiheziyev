@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 5000px;
+  font-family: Nunito;
+  letter-spacing: 0.0625em;
+}
+
+.container {
+  width: 69.5%;
+  margin: auto;
+  padding-top: 30px;
+}
+#start header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+#start header ul {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: rgba(255,255,255,.5);
+  font-weight: 700;
+}
+li {
+  list-style-type: none;
+  padding: 0rem 1.5rem;
+}
+#start {
+  height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.349)0,
+      rgba(22,22,22,.7)75%
+    ),
+    url("img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#menu{
+    position: fixed;
+}
+h1{
+    font-weight: 500;
+    line-height: 1.2;
+    font: 104px "Varela Round";
+    padding-left: 330px;
+    padding-top: 100px;
+}
+h2{
+    color:rgba(255,255,255,.5);
+    margin-left: 20px;
+    font: 20px "Nunito";
+    text-align: center;
+    margin-bottom: 60px;
+}
+.button{
+    margin-left: 600px;
+    color: #ffff;
+    box-shadow: 0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    background-color: #64a19d;
+    
+    
+   
+    
+} 
